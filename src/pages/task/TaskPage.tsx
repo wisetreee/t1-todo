@@ -6,7 +6,5 @@ export const TaskPage = () => {
   const params = useParams();
   const task = useTaskStore((state) => state.tasks.find((t) => t.id === Number(params.id)));
 
-  return (
-      task ? <TaskForm task={task}/> : <div>Task not found</div>
-    );
+  return task ? <TaskForm task={task} /> : <div>Task not found</div>;
 };

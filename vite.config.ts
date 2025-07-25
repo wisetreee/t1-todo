@@ -10,7 +10,6 @@ export default defineConfig({
       '@pages': '/src/pages',
       '@lib': '/src/lib',
       '@store': '/src/store',
-
     },
   },
 });

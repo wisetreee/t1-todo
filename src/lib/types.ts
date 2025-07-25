@@ -1,4 +1,3 @@
-
 export const Status = {
   Todo: 'Todo',
   InProgress: 'In progress',
@@ -34,7 +33,6 @@ export interface ITaskItem {
   createdAt: Date;
   priority: Priority;
 }
-
 
 export const TaskTheme = {
   status: {

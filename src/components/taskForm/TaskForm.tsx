@@ -1,4 +1,4 @@
-import type { ITaskItem } from "@lib/types";
+import type { ITaskItem } from '@lib/types';
 
 interface taskFormProps {
   task: ITaskItem;

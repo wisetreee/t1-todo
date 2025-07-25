@@ -5,7 +5,7 @@ import reactRefresh from 'eslint-plugin-react-refresh';
 import tseslint from 'typescript-eslint';
 import prettierPlugin from 'eslint-plugin-prettier';
 import { globalIgnores } from 'eslint/config';
-import pluginQuery from '@tanstack/eslint-plugin-query'
+import pluginQuery from '@tanstack/eslint-plugin-query';
 
 export default tseslint.config([
   globalIgnores(['dist']),
@@ -13,7 +13,7 @@ export default tseslint.config([
   {
     files: ['**/*.{ts,tsx}'],
     plugins: {
-      prettier: prettierPlugin, 
+      prettier: prettierPlugin,
     },
     extends: [
       js.configs.recommended,
